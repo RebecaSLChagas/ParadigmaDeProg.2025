@@ -23,4 +23,10 @@ public class Aluno {
     public String passou (){
         return (this.notaFinal() >= 6)? "Passou" : "Não passou";
     }
+    public void dadosAluno(){
+        System.out.println("Nome: " + nome +
+                "Nro. ALuno: " + this.nroAluno +
+                "Idade: " + this.idade +
+                "Situação " + this.passou());
+    }
 }
