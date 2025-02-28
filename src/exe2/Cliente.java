@@ -14,5 +14,26 @@ public class Cliente {
         this.nome = nome;
         this.saldo = saldo; //saldo do objeto que chamou o construtor
     }
-
+    //realizar depósito
+    public void depositar(float x){
+        this.saldo += x;
+        System.out.println("Depósito realizado");
+    }
+    public void exibirDetalhes(){
+        System.out.println(
+                "Nro. Conta: " + this.nroConta
+                + " Nro. Agência: " + this.nroAgencia
+                + " Nome: " + this.nome
+                + " Saldo " + this.saldo);
+    }
+    // sacar o saldo
+    public void sacar(float x){
+        if (this.saldo >= x){
+            this.saldo -= x;
+            System.out.println("Saque realizado");
+        }
+        else{
+            System.out.println("Saldo insuficiente");
+        }
+    }
 }

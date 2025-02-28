@@ -22,7 +22,7 @@ public class Aluno {
     // verifica se o aluno passou
     public String passou (){
         return (this.notaFinal() >= 6)? "Passou" : "Não passou";
-    }
+    } //isso se chama operador ternário
     public void dadosAluno(){
         System.out.println("Nome: " + nome +
                 "Nro. ALuno: " + this.nroAluno +
