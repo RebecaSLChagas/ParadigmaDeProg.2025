@@ -43,7 +43,7 @@ public class Produto {
         }
     }
 
-    public String exibeDetalhes() { //clicar no botão direito, generate, ok, colocar this necessários)
+    public String exibeDetalhes() { //clicar no botão direito, generate, to String, ok, colocar this necessários)
         return "Produto{" +
                 "id=" + this.id +
                 ", qtde=" + this.qtde +
