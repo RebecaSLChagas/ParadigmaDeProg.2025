@@ -3,6 +3,7 @@ public class Cliente {
     public int nroAgencia, nroConta; //tipo primitivo
     public String nome; //tipo de classe
     public float saldo; //tipo primitivo
+
     //método construtor sem parâmetro, para criar objeto vazio
     public Cliente(){
         this.nome = "sem nome";
